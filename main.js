@@ -16,11 +16,38 @@ const myTeam = [
     },
     {
         name: 'Noah',
-        birthday: '09/14/2000',
+        birthday: '09/14/00',
         pet: 'ferret'
     }
 ]
-teammateNames = () => {
+
+const teamsBirthdays = (teamArray) => {
+    for (const teamMember of teamArray) {
+        console.log(`${teamMember.name}'s birthday is ${teamMember.birthday}.`)
+    }
+}
+
+let birthdayLog = teamsBirthdays(myTeam)
+console.log(birthdayLog)
+
+
+let teamPets = (team) => { 
+    for (const teamMate of team) {
+        if (teamMate.pet === 'none') {
+        console.log(`${teamMate.name} has no pets.`)
+        }
+        else {
+            console.log (`${teamMate.name} has a ${teamMate.pet} as a pet.`)
+        }
+}
+}
+
+
+let pets = teamPets(myTeam)
+console.log(pets)
+
+const teammateNames = () => {
+    console.log('These are the teammates names.')
     console.log('Krysta');
     console.log('Tiffani');
     console.log('Ben');
