@@ -20,3 +20,18 @@ const myTeam = [
         pet: 'ferret'
     }
 ]
+
+let teamPets = (team) => { 
+    for (const teamMate of team) {
+        if (teamMate.pet === 'none') {
+        console.log(`${teamMate.name} has no pets.`)
+        }
+        else {
+            console.log (`${teamMate.name} has a ${teamMate.pet} as a pet.`)
+        }
+}
+}
+
+
+let pets = teamPets(myTeam)
+console.log(pets)
