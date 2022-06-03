@@ -45,3 +45,13 @@ let teamPets = (team) => {
 
 let pets = teamPets(myTeam)
 console.log(pets)
+
+const teammateNames = () => {
+    console.log("These are the teammates names.")
+    console.log('Krysta');
+    console.log('Tiffani');
+    console.log('Ben');
+    console.log('Noah');
+}
+
+teammateNames();
