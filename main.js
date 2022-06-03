@@ -22,7 +22,7 @@ const myTeam = [
 ]
 
 const teamsBirthdays = (teamArray) => {
-    for (teamMember of teamArray) {
+    for (const teamMember of teamArray) {
         console.log(`${teamMember.name}'s birthday is ${teamMember.birthday}.`)
     }
 }
