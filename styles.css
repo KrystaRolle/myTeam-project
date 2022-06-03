@@ -1,4 +1,8 @@
 body {
-    color: blue;
-    
+    background-color: aquamarine;
+    font-family: 'Quicksand', sans-serif;   
+}
+
+h1 {
+    color: black;
 }
