@@ -20,3 +20,11 @@ const myTeam = [
         pet: 'ferret'
     }
 ]
+teammateNames = () => {
+    console.log('Krysta');
+    console.log('Tiffani');
+    console.log('Ben');
+    console.log('Noah');
+}
+
+teammateNames();
