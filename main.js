@@ -16,10 +16,20 @@ const myTeam = [
     },
     {
         name: 'Noah',
-        birthday: '09/14/2000',
+        birthday: '09/14/00',
         pet: 'ferret'
     }
 ]
+
+const teamsBirthdays = (teamArray) => {
+    for (const teamMember of teamArray) {
+        console.log(`${teamMember.name}'s birthday is ${teamMember.birthday}.`)
+    }
+}
+
+let birthdayLog = teamsBirthdays(myTeam)
+console.log(birthdayLog)
+
 
 let teamPets = (team) => { 
     for (const teamMate of team) {
